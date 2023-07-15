@@ -1,0 +1,42 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+}
+
+.chat-messages {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.chat-input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.chat-input:focus {
+  outline: none;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.chat-message .username {
+  font-weight: bold;
+}
+
+.chat-message .timestamp {
+  color: #999;
+  font-size: 0.8em;
+}
+
+.chat-message .message {
+  margin-top: 5px;
+}
